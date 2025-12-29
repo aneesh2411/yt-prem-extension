@@ -18,17 +18,9 @@ A lightweight Chrome extension that automatically skips YouTube ads by adding a 
 
 - **Automatic Ad Skipping**: No manual URL editing required
 - **Zero Configuration**: Install and forget - it just works
-- **Lightweight**: Uses Chrome's built-in redirect API for minimal performance impact
+- **Lightweight**: Minimal performance impact
 - **Privacy Focused**: No data collection, works entirely offline
 - **Universal**: Works on all YouTube videos and playlists
-
-## 🎯 How It Works
-
-The extension uses Chrome's `declarativeNetRequest` API to automatically redirect:
-- `https://www.youtube.com/...` → `https://www.youtube.com./...`
-- `https://youtube.com/...` → `https://youtube.com./...`
-
-This simple URL modification causes YouTube to skip ads while still playing the video normally.
 
 ## 📦 Installation
 
